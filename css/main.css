@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background:url(../images/bckgrd.jpeg)no-repeat;
+	background-size: 2200px 1100px;
+	overflow: hidden;
+
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #A0A8D3;
+}
+
+#tagline {
+    float: left;
+	margin-top: 70px;
+	margin-left: 12px;
+	font-size: 20px;
+}
+
+#header
+{
+	background-color: #95A5C1
+}
+
+#mainNav
+{
+	float: right;
+	width: 500px;
+	padding: 30px;
+	align-content: center;
+	font-size: 15px;
+}
+
+#mainNav ul
+{
+	list-style-type: none; /*remove bullets*/
+	float: right;
+	margin-top: 62px;
+	padding: 0;
+}
+
+#mainNav ul li
+{
+	display: inline;
+	margin-left: 25px;
+}
+
+#mainNav ul li a
+{
+	color: #000000;
+	padding: 5px;
+}
+
+#mainNav ul li a:hover
+{
+	color: #fff;
+	text-decoration: underline;
+	padding: 5px;
+}
+
+
+#image
+{
+	float: left;
+	width: 300px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#text
+{
+	float: right;
+	width: 250px;
+	padding: 20px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+footer
+{
+	clear: both
+}

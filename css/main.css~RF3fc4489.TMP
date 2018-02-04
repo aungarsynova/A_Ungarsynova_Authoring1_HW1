@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background:url(images/background.jpg) no-repeat;
+}
+
+#container
+{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#header
+{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 1366px;
+height: 84px;
+overflow: hidden;
+}
+
+#logo
+{
+position: absolute;
+left: 38px;
+top: 17px;
+width: 462px;
+height: 51px;
+}
+
+#main_nav
+{
+position: absolute;
+left: 597px;
+top: 17px;
+width: 731px;
+height: 51px;
+}
+
+.contentCon
+{
+
+}
+
+#content1
+{
+position: absolute;
+left: 57px;
+top: 116px;
+width: 694px;
+height: 564px;
+}
+
+#content2
+{
+position: absolute;
+left: 846px;
+top: 112px;
+width: 462px;
+height: 564px;
+}
+
+#mainFooter
+{
+position: absolute;
+left: 0px;
+top: 716px;
+width: 1366px;
+height: 52px;
+}
